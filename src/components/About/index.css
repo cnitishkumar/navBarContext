@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 20px;
+}
+.about-heading-dark {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.about-heading-light {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.about-image {
+  height: 200px;
+  width: 200px;
+}

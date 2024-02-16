@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.nav-dark {
+  background-color: #333333;
+}
+.nav-light {
+  background-color: #ffffff;
+}
+
+.ul-el {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+}
+.list-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style: none;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.button-icon {
+  height: 50px;
+  width: 50px;
+}
+.button {
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.option-dark {
+  color: #dcdcdc;
+  font-weight: 500;
+}
+
+.option-light {
+  color: #000000;
+  font-weight: 500;
+}
+.hr {
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 576px) {
+  .website-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .button-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
